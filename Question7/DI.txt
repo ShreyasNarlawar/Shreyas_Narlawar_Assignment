@@ -1,0 +1,8 @@
+Dependency Injection in ASP.NET Core is used to manage object creation and dependencies.
+
+Services are registered in Program.cs:
+builder.Services.AddScoped<IMyService, MyService>();
+
+They are injected using constructor injection.
+
+It improves maintainability, testability, and reduces tight coupling.
